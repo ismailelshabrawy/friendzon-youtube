@@ -3,7 +3,7 @@
 import { pusherClient } from '@/lib/pusher'
 import { cn, toPusherKey } from '@/lib/utils'
 import { Message } from '@/lib/validations/message'
-import { format } from 'data-fns'
+import { format } from 'date-fns'
 import Image from 'next/image'
 import { FC, useEffect, useRef, useState } from 'react'
 
